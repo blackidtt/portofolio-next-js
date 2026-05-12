@@ -36,7 +36,8 @@ export default function Experience() {
                 <div key={edu.id} className="border-l-4 border-green-600 pl-6 pb-6">
                   <h4 className="text-xl font-bold text-gray-900 dark:text-white">{edu.degree}</h4>
                   <p className="text-green-600 dark:text-green-400 font-semibold">{edu.institution}</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">{edu.year}</p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">{edu.yearIn} - {edu.yearOut} | GPA: {edu.gpa}</p>
+                  <p className="text-gray-700 dark:text-gray-300">{edu.description}</p>
                 </div>
               ))}
             </div>

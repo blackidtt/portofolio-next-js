@@ -20,7 +20,7 @@ export default function Header() {
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex justify-between items-center">
           <Link href="#home" className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-            {'<Dev />'}
+            {'Maftuh Ahnan'}
           </Link>
 
           {/* Desktop Menu */}

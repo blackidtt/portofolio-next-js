@@ -8,7 +8,7 @@ export default function Skills() {
   const skillCategories = [
     { title: 'Frontend Development', items: skills.frontend },
     { title: 'Backend Development', items: skills.backend },
-    { title: 'DevOps & Tools', items: skills.devops },
+    { title: 'Enterprise Tools & Integration', items: skills.tools },
   ];
 
   return (
