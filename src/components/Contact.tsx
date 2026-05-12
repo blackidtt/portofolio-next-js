@@ -12,7 +12,7 @@ export default function Contact() {
           Contact
         </h2>
         <p className="text-gray-600 dark:text-gray-300 mb-10">
-          Hubungi saya lewat email, telepon, atau LinkedIn untuk kolaborasi dan peluang baru.
+          Feel free to contact me via email, phone, or LinkedIn for collaboration opportunities and new projects
         </p>
 
         <div className="grid gap-4 sm:grid-cols-3">
